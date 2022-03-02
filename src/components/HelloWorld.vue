@@ -109,6 +109,10 @@ export default defineComponent({
   name: "HelloWorld",
   props: {
     msg: String,
+    age: {
+      type: Number,
+      required: true,
+    },
   },
 });
 </script>
